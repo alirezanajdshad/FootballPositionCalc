@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\personalAndroidProjects\\OverallCalculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\personalAndroidProjects\\OverallCalculator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\personalAndroidProjects\\OverallCalculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pitch_result.png",
@@ -12,7 +20,15 @@
         "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\personalAndroidProjects\\OverallCalculator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pitch_result.png",
+        "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\src\\main\\res\\mipmap-hdpi\\pitch_result.png"
+    },
+    {
         "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\personalAndroidProjects\\OverallCalculator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pitch.png",
         "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\personalAndroidProjects\\OverallCalculator\\app\\src\\main\\res\\mipmap-hdpi\\pitch.png"
+    },
+    {
+        "merged": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\pitch.png",
+        "source": "C:\\Users\\alirezanajd28\\Documents\\GitHub\\FootballPositionCalc\\app\\src\\main\\res\\mipmap-hdpi\\pitch.png"
     }
 ]

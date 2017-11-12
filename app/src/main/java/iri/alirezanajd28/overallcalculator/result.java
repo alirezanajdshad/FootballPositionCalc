@@ -38,22 +38,22 @@ public class result extends AppCompatActivity {
     public void calculateOverall() {
         gk.setText("GK" + '\n' +
                 String.valueOf(
-                        Math.round((8 * att.getInt("physical") + 20 * att.getInt("diving") + 15 * att.getInt("handling") + 10 * att.getInt("kicking")
-                                + 25 * att.getInt("reflections") + 2 * att.getInt("speed") + 20 * att.getInt("positioning")) / 100)
+                        Math.round((3 * att.getInt("physical") + 23 * att.getInt("diving") + 15 * att.getInt("handling") + 5 * att.getInt("kicking")
+                                + 30 * att.getInt("reflections") + 2 * att.getInt("speed") + 22 * att.getInt("positioning")) / 100)
                 )
         );
 
         rb.setText("RB" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 5 * att.getInt("shooting") + 23 * att.getInt("passing") + 15 * att.getInt("dribbling")
-                                + 27 * att.getInt("defence") + 15 * att.getInt("physical")) / 100)
+                        Math.round((5 * att.getInt("pace") + 30 * att.getInt("passing") + 15 * att.getInt("dribbling")
+                                + 40 * att.getInt("defence") + 10 * att.getInt("physical")) / 100)
                 )
         );
 
         lb.setText("LB" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 5 * att.getInt("shooting") + 23 * att.getInt("passing") + 15 * att.getInt("dribbling")
-                                + 27 * att.getInt("defence") + 15 * att.getInt("physical")) / 100)
+                        Math.round((5 * att.getInt("pace") + 30 * att.getInt("passing") + 15 * att.getInt("dribbling")
+                                + 40 * att.getInt("defence") + 10 * att.getInt("physical")) / 100)
                 )
         );
 
@@ -66,67 +66,68 @@ public class result extends AppCompatActivity {
 
         rwb.setText("RWB" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 15 * att.getInt("shooting") + 20 * att.getInt("passing") + 20 * att.getInt("dribbling")
-                                + 15 * att.getInt("defence") + 15 * att.getInt("physical")) / 100)
+                        Math.round((15 * att.getInt("pace") + 5 * att.getInt("shooting") + 30 * att.getInt("passing") + 25 * att.getInt("dribbling")
+                                + 20 * att.getInt("defence") + 5 * att.getInt("physical")) / 100)
                 )
         );
 
         lwb.setText("LWB" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 15 * att.getInt("shooting") + 20 * att.getInt("passing") + 20 * att.getInt("dribbling")
-                                + 15 * att.getInt("defence") + 15 * att.getInt("physical")) / 100)
+                        Math.round((15 * att.getInt("pace") + 5 * att.getInt("shooting") + 30 * att.getInt("passing") + 25 * att.getInt("dribbling")
+                                + 20 * att.getInt("defence") + 5 * att.getInt("physical")) / 100)
                 )
         );
 
         cdm.setText("CDM" + '\n' +
                 String.valueOf(
-                        Math.round((2 * att.getInt("pace") + 5 * att.getInt("shooting") + 35 * att.getInt("passing") + 10 * att.getInt("dribbling")
-                                + 25 * att.getInt("defence") + 23 * att.getInt("physical")) / 100)
+                        Math.round((35 * att.getInt("passing") + 5 * att.getInt("dribbling")
+                                + 25 * att.getInt("defence") + 35 * att.getInt("physical")) / 100)
                 )
         );
 
         cm.setText("CM" + '\n' +
                 String.valueOf(
-                        Math.round((3 * att.getInt("pace") + 12 * att.getInt("shooting") + 35 * att.getInt("passing") + 20 * att.getInt("dribbling")
-                                + 15 * att.getInt("defence") + 15 * att.getInt("physical")) / 100)
+                        Math.round((5 * att.getInt("shooting") + 65 * att.getInt("passing") + 20 * att.getInt("dribbling")
+                                + 5 * att.getInt("defence") + 5 * att.getInt("physical")) / 100)
                 )
         );
 
         cam.setText("CAM" + '\n' +
                 String.valueOf(
-                        Math.round((5 * att.getInt("pace") + 20 * att.getInt("shooting") + 35 * att.getInt("passing") + 35 * att.getInt("dribbling")
-                                + 5 * att.getInt("physical")) / 100)
+                        Math.round((5 * att.getInt("pace") + 15 * att.getInt("shooting") + 30 * att.getInt("passing") + 50 * att.getInt("dribbling")) / 100)
                 )
         );
         lm.setText("LM" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 20 * att.getInt("shooting") + 25 * att.getInt("passing") + 35 * att.getInt("dribbling")
-                                + 5 * att.getInt("physical")) / 100)));
+                        Math.round((15 * att.getInt("pace") + 15 * att.getInt("shooting") + 25 * att.getInt("passing") + 40 * att.getInt("dribbling")
+                                + 5 * att.getInt("physical")) / 100))
+        );
 
         rm.setText("RM" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 20 * att.getInt("shooting") + 25 * att.getInt("passing") + 35 * att.getInt("dribbling")
-                                + 5 * att.getInt("physical")) / 100)));
+                        Math.round((15 * att.getInt("pace") + 15 * att.getInt("shooting") + 25 * att.getInt("passing") + 40 * att.getInt("dribbling")
+                                + 5 * att.getInt("physical")) / 100))
+        );
 
         cf.setText("CF" + '\n' +
                 String.valueOf(
-                        Math.round((10 * att.getInt("pace") + 30 * att.getInt("shooting") + 15 * att.getInt("passing") + 35 * att.getInt("dribbling")
-                                + 10 * att.getInt("physical")) / 100)));
+                        Math.round((5 * att.getInt("pace") + 30 * att.getInt("shooting") + 25 * att.getInt("passing") + 40 * att.getInt("dribbling")) / 100))
+        );
 
         st.setText("ST" + '\n' +
                 String.valueOf(
-                        Math.round((10 * att.getInt("pace") + 35 * att.getInt("shooting") + 5 * att.getInt("passing") + 30 * att.getInt("dribbling")
+                        Math.round((5 * att.getInt("pace") + 55 * att.getInt("shooting") + 20 * att.getInt("dribbling")
                                 + 20 * att.getInt("physical")) / 100)));
 
         rw.setText("RW" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 30 * att.getInt("shooting") + 15 * att.getInt("passing") + 30 * att.getInt("dribbling")
-                                + 10 * att.getInt("physical")) / 100)));
+                        Math.round((10 * att.getInt("pace") + 30 * att.getInt("shooting") + 20 * att.getInt("passing") + 40 * att.getInt("dribbling")) / 100))
+        );
 
         lw.setText("LW" + '\n' +
                 String.valueOf(
-                        Math.round((15 * att.getInt("pace") + 30 * att.getInt("shooting") + 15 * att.getInt("passing") + 30 * att.getInt("dribbling")
-                                + 10 * att.getInt("physical")) / 100)));
+                        Math.round((10 * att.getInt("pace") + 30 * att.getInt("shooting") + 20 * att.getInt("passing") + 40 * att.getInt("dribbling")) / 100))
+        );
     }
 
     @Override
